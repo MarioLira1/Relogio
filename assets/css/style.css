@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+:root {
+    --primary-color: rgb(17, 86, 102);
+    --primary-color-darker: rgb(9, 48, 56);
+}
+
+
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background: rgb(46, 1, 36);
+    padding: 20px;
+    padding-left: 180px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section{
+    display: block;
+    color: rgb(255, 255, 255);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+form input, form label {
+    display:block ;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input{
+    font-size: 24px;
+    height: 30px;
+    padding: 0 15px;
+}
+
+button:focus{
+    outline: 1px solid rgb(3, 238, 167);
+}
+
+form button{
+    border: none;
+    background: var(--primary-color);
+    font-size: 18px;
+    font-weight: 70;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+button:hover{
+    background: rgb(4, 77, 151);
+    border: 2px solid #ffffff;
+    border-radius: 30%;
+}    
+
+.Rlg{
+    font-size: 3em;
+}
+
+.Pintei{
+    color: blueviolet;
+}
